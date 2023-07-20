@@ -5,12 +5,12 @@ clc
 %Desynchronization Data
     
  %%% Parameters to Vary
-    AmpV = [50]%[10,30,50,70,100]'; %10 to 100 %10, 30, 50, 70, 100
-    PW1V = [0.1]%,0.5,1,1.5,2]'; %ms between 0.1ms to 2 ms  %0.1, 0.5, 1, 1.5, 2
-    PW2V = [0.1]%,0.5,1,1.5,2]'; %ms between 0.1ms to 2 ms  %0.1, 0.5, 1, 1.5, 2
-    PW3V = [10]%,15,20,25]'; %ms between 10 to 25 (100 Hz to 40 Hz) %10,15,20,25
-    NsV = [5]%,15,25,40]'; %5 to 40 pulses 5, 15, 25, 40
-    J_IV = [450]%,400,350,300,250,200,165]'; % NOTE: J_I = J_IE 450 - 165 with interval of 50
+    AmpV = [10,30,50,70,100]'; %10 to 100
+    PW1V = [0.1,0.5,1,1.5,2]'; %ms between 0.1ms to 2 ms 
+    PW2V = [0.1,0.5,1,1.5,2]'; %ms between 0.1ms to 2 ms
+    PW3V = [25]%[10,15,20,25]'; %ms between 10 to 25 (100 Hz to 40 Hz)
+    NsV = [5]%,15,25,40]'; %5 to 40 pulses
+    J_IV = [450,400,350,300,250,200,165]'; % NOTE: J_I = J_IE 450 - 165 with interval of 50
     
     aE = -1;
     aI = 1;
